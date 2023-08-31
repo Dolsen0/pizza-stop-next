@@ -25,3 +25,6 @@ export default function GetLocation() {
         </>
     )
 }
+
+// add style to address section
+// add image to page
