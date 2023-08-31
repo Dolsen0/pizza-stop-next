@@ -21,7 +21,7 @@ export default function GetMenu() {
   return (
     <>
     <section className="menu" >
-
+        <h2>Menu</h2>
       {loading ? <p>Loading...</p> : (
           <div>
           {menu.map(item => (

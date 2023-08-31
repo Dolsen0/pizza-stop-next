@@ -15,11 +15,9 @@ export default function GetTitle() {
 
   return (
     <>
-      <header>
-        <div>
-          <h1>{general.general ? general.general.name : "..."}</h1>
-          <p>{general.general ? general.general.motto : ""}</p>
-        </div>
+      <header className="title">
+        <h1>{general.general ? general.general.name : "Pizza"}</h1>
+        <p>{general.general ? general.general.motto : "Stop"}</p>
       </header>
     </>
   );
