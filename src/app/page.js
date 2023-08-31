@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
-import styles from "./page.module.css";
 import GetTitle from "./components/GetTitle";
 import GetMenu from "./components/GetMenu";
+import GetLocation from "./components/GetLocation";
 
 export default function Home() {
   return (
@@ -14,6 +13,9 @@ export default function Home() {
         </section>
         <section>
           <GetMenu />
+        </section>
+        <section>
+          <GetLocation />
         </section>
       </div>
     </>
