@@ -78,4 +78,6 @@ a:hover {
 
 .menu{
   padding: 1.75rem;
+  border: 2px solid rgb(205, 189, 189);
+  margin: 1rem;
 }
