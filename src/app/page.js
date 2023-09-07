@@ -3,6 +3,7 @@
 import GetTitle from "./components/GetTitle";
 import GetMenu from "./components/GetMenu";
 import GetLocation from "./components/GetLocation";
+import AboutUs from "./components/AboutUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       <div className="app">
         <section className="hero">
         <GetTitle />
+        </section>
+        <section className="about">
+          <AboutUs />
         </section>
         <section>
           <GetMenu />

@@ -76,6 +76,11 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.about{
+  margin: 1rem;
+  padding: 1rem;
+}
+
 .menu{
   padding: 1.75rem;
   border: 2px solid rgb(205, 189, 189);
