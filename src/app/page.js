@@ -24,12 +24,12 @@ export default function Home() {
           <GetMenu />
         </section>
 
-        <section>
+        <section className="history">
           <History />
         </section>
         <section className="visit">
           <VisitUs />
-          </section>
+        </section>
         <section className="frozen">
           <Frozen />
         </section>

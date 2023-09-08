@@ -10,7 +10,7 @@ export default function AboutUs() {
     <>
       <h2>About Us</h2>
       {ingredients.map((ingredient, index) => (
-        <li key={index}>{ingredient}</li>
+        <li className="about__li" key={index}>{ingredient}</li>
       ))}
     </>
   );

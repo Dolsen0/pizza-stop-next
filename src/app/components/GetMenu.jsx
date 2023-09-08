@@ -29,7 +29,7 @@ export default function GetMenu() {
               {menu.map((item) => (
                 <div className="menu__item" key={item.id}>
                   <h3>{item.name}</h3>
-                  <p>Price: ${item.price.toFixed(2)}</p>
+                  <p>${item.price.toFixed(2)}</p>
                   <p>{item.description}</p>
                 </div>
               ))}

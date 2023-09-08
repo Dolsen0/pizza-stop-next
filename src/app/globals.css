@@ -76,8 +76,15 @@ a:hover {
 }
 
 .about {
-  margin: 1rem;
   padding: 1rem;
+  background-color: #ffffff;
+  color: black;
+  text-shadow: none;
+}
+
+.about__li{
+  padding: .75rem;
+  list-style: none;
 }
 
 .menu{
@@ -95,8 +102,12 @@ a:hover {
 .menu__content{
   background-color: rgba(0, 0, 0, 0.10);
   padding: 1rem;
-  margin: 1rem;
+  margin: 0rem 1rem;
   border-radius: 10px;
+}
+
+.history{
+  padding: 1.5rem;
 }
 
 
@@ -111,11 +122,12 @@ a:hover {
 }
 
 .visit__hours{
-  background-image: url('../../public/klara-kulikova-RsiNFKMvqtg-unsplash.jpg');
+  background-image: url('../../public/benjamin-zanatta-qk1hk6R9rIQ-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
+
 
 .visit__location, .visit__hours {
   flex: 1;
@@ -123,7 +135,8 @@ a:hover {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
+  margin: 1px; 
 }
 .visit__location {
   background-image: url("../../public/mihai-moisa-Djtc1T38-GY-unsplash.jpg");
@@ -132,3 +145,13 @@ a:hover {
   background-position: center center;
 }
 
+
+.frozen{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../public/pizza-rose.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
