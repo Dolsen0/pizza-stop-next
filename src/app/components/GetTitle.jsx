@@ -16,8 +16,8 @@ export default function GetTitle() {
   return (
     <>
       <header className="title">
-        <h1>"Pizza Stop"</h1>
-        <p>"Stop and have a slice"</p>
+        <h1>Pizza Stop</h1>
+        <p>Stop and have a slice</p>
       </header>
     </>
   );
