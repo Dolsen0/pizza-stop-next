@@ -15,7 +15,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  padding: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -81,38 +80,55 @@ a:hover {
   padding: 1rem;
 }
 
-.menu__background {
+.menu{
+  width: 100%
+}
+
+.menu__background{
   background-image: url("../../public/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg");
-  width: 100vw;
-  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 40px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-position-x: center;
 }
 
-.menu__text {
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+.menu__content{
+  background-color: rgba(0, 0, 0, 0.10);
   padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
 }
 
-.menu__background > h2 {
-  color: #fff;
-  margin-bottom: 30px;
-}
 
-.menu {
-  width: 80%;
+.visit__container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  gap: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 
-.menu:hover {
-  transform: none;
+.visit__hours{
+  background-image: url('../../public/klara-kulikova-RsiNFKMvqtg-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
+.visit__location, .visit__hours {
+  flex: 1;
+  height: 100%; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+}
+.visit__location {
+  background-image: url("../../public/mihai-moisa-Djtc1T38-GY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
