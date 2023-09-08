@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 16px;
   line-height: 1.6;
   color: rgb(var(--foreground-rgb));
@@ -16,9 +16,15 @@ body {
     )
     rgb(var(--background-start-rgb));
   padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -46,13 +52,8 @@ a:hover {
 .app {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
-  align-items: center;   
-           
-}
-
-.menu:hover {
-  transform: translateY(-5px);
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
@@ -61,43 +62,57 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../../public/pizza.jpg');
+  background-image: url("../../public/pizza.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-
-.title{
+.title {
   font-size: 2rem;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.about{
+.about {
   margin: 1rem;
   padding: 1rem;
 }
 
-.menu{
-  padding: 1.75rem;
-  border: 2px solid rgb(205, 189, 189);
-  margin: 1rem;
-}
-
-.frozen{
-  background-image: url('../../public/pizza-rose.jpg');
+.menu__background {
+  background-image: url("../../public/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg");
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
-} 
+  background-position: center center;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.frozen__text{
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.menu__text {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+}
+
+.menu__background > h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.menu {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu:hover {
+  transform: none;
 }

@@ -20,12 +20,13 @@ export default function GetMenu() {
 
   return (
     <>
-    <section className="menu" >
+    <section className="menu__background" >
+      <div className="menu__text">
         <h2>Menu</h2>
       {loading ? <p>Loading...</p> : (
-          <div>
+        <div>
           {menu.map(item => (
-              <div key={item.id}>
+            <div key={item.id}>
               <h2>{item.name}</h2>
               <p>Price: ${item.price.toFixed(2)}</p>
               <p>{item.description}</p>
@@ -33,6 +34,7 @@ export default function GetMenu() {
           ))}
         </div>
       )}
+      </div>
       </section>
     </>
   );

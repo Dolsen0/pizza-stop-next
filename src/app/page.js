@@ -17,12 +17,15 @@ export default function Home() {
         <section className="about">
           <AboutUs/>
         </section>
+
         <section>
           <History />
         </section>
-        <section>
+
+       
           <GetMenu />
-        </section>
+  
+
         <section>
           <GetLocation />
         </section>
