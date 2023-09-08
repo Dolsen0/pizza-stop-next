@@ -1,16 +1,16 @@
 export default function AboutUs() {
+  const ingredients = [
+    "Handmade Mozzarella: Our mozzarella is hand-stretched daily by our skilled chefs, using traditional Italian methods.",
+    "Tomatoes: We craft our signature sauce using a perfect blend of authentic San Marzano tomatoes imported from Italy and our home-grown, sun-ripened tomatoes, offering a unique and rich flavor profile.",
+    "48-Hour Cold Fermented Dough: Our pizza crust stands out due to its 48-hour cold fermentation process. This method ensures a light, airy, and digestible crust with deeper flavors, setting the foundation for our pizzas' unmatched taste."
+  ];
+
   return (
     <>
-    
       <h2>About Us</h2>
-      <p>
-        Pizza Stop was born out of a love for pizza, family, and
-        tradition. Founded in 2022, by Albert Calabrese, a third-generation
-        pizzaiolo from Naples, we have been serving the Boca Raton
-        community with pizzas that tell a tale of passion and heritage. Our
-        founder's vision was simple yet profound: to recreate the warmth of his
-        grandmother's kitchen for every guest who walked through our doors.
-      </p>
+      {ingredients.map((ingredient, index) => (
+        <li key={index}>{ingredient}</li>
+      ))}
     </>
   );
 }

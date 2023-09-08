@@ -5,6 +5,7 @@ import GetMenu from "./components/GetMenu";
 import GetLocation from "./components/GetLocation";
 import AboutUs from "./components/AboutUs";
 import Frozen from "./components/Frozen";
+import History from "./components/History";
 
 export default function Home() {
   return (
@@ -14,7 +15,10 @@ export default function Home() {
         <GetTitle />
         </section>
         <section className="about">
-          <AboutUs />
+          <AboutUs/>
+        </section>
+        <section>
+          <History />
         </section>
         <section>
           <GetMenu />
