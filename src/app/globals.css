@@ -86,3 +86,18 @@ a:hover {
   border: 2px solid rgb(205, 189, 189);
   margin: 1rem;
 }
+
+.frozen{
+  background-image: url('../../public/pizza-rose.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.frozen__text{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
