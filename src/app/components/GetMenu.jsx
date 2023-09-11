@@ -20,7 +20,9 @@ export default function GetMenu() {
   return (
     <div className="menu__background">
       <div className="menu__content">
+        <div className="menu__container">
         <h2>Menu</h2>
+          </div>
         <div className="menu__text">
           {loading ? (
             <p>Loading...</p>

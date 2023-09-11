@@ -21,6 +21,8 @@ export default function GetLocation() {
         <h2>Location</h2>
         {location.address && <p>{location.address.street},</p>}
         {location.address && <p>{location.address.city}, {location.address.state}, {location.address.zip}</p>}
+        {location.contact && <p>{location.contact.phone}</p>}
+        {location.contact && <p>{location.contact.email}</p>}
         </>
     )
 }

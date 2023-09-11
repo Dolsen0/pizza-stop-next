@@ -79,7 +79,9 @@ a:hover {
   padding: 1rem;
   background-color: #ffffff;
   color: black;
-  text-shadow: none;
+  text-shadow: 2px 2px 4px rgba(232, 224, 224, 0.7);
+  border: 1px solid rgba(232, 224, 224, 0.7);
+  border-radius: 10px;
 }
 
 .about__container{
@@ -95,7 +97,13 @@ a:hover {
 } 
 
 .menu{
-  width: 100%
+  width: 100%;
+}
+
+.menu__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .menu__background{
@@ -104,6 +112,8 @@ a:hover {
   background-size: cover;
   background-position: center center;
   background-position-x: center;
+  border-radius: 10px;
+
 }
 
 .menu__content{
@@ -111,6 +121,8 @@ a:hover {
   padding: 1rem;
   margin: 0rem 1rem;
   border-radius: 10px;
+  border-radius: 10px;
+
 } 
 
 .history{
@@ -137,6 +149,10 @@ a:hover {
 
 .history__content{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .history__container p {
@@ -183,6 +199,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   margin: 1px; 
+  border-radius: 10px;
 }
 .visit__location {
   background-image: url("../../public/mihai-moisa-Djtc1T38-GY-unsplash.jpg");
@@ -200,5 +217,6 @@ a:hover {
   background-size: cover;
   background-position: center center;
   margin-top: .25rem;
-  
+  padding: 2.0rem;;
+  border-radius: 10px;
 }

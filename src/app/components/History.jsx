@@ -2,6 +2,7 @@ export default function History() {
   return (
     <>
       <div className="history__container">
+      <p className="history__image ">.</p>
         <div className="history__content">
           <h2>History</h2>
           <p>
@@ -15,7 +16,6 @@ export default function History() {
             Boca Raton.
           </p>
         </div>
-        <p className="history__image ">.</p>
       </div>
     </>
   );
