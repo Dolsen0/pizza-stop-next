@@ -2,6 +2,8 @@ export default function History() {
     return (
       <>
       
+        <div className="history__container">
+        <div className="history__content">
         <h2>History</h2>
         <p>
           Pizza Stop was born out of a love for pizza, family, and
@@ -11,6 +13,9 @@ export default function History() {
           founder's vision was simple yet profound: to recreate the warmth of his
           grandmother's kitchen for every guest who walked through our doors.
         </p>
+        </div>
+        <p className="history__image ">.</p>
+        </div>
       </>
     );
   }

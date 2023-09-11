@@ -20,16 +20,16 @@ export default function Home() {
           <AboutUs />
         </section>
 
+        <section>
+          <History />
+        </section>
+
         <section className="menu">
           <GetMenu />
         </section>
-
-        <section className="history">
-          <History />
-        </section>
         <section className="visit">
           <VisitUs />
-        </section>
+          </section>
         <section className="frozen">
           <Frozen />
         </section>
@@ -37,3 +37,6 @@ export default function Home() {
     </>
   );
 }
+
+// add style to address section
+// add image to page
