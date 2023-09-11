@@ -8,7 +8,6 @@ export default function GetHours() {
       .then((res) => res.json())
       .then((data) => {
         setHours(data);
-        console.log(data);
       })
       .catch((err) => {
         console.log(err);

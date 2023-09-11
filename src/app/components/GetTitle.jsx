@@ -8,7 +8,6 @@ export default function GetTitle() {
       .then((response) => response.json())
       .then((data) => {
         setGeneral(data);
-        console.log(data);
       })
       .catch((error) => console.log(error));
   }, []);

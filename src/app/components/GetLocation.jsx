@@ -9,7 +9,6 @@ export default function GetLocation() {
         .then(res => res.json())
         .then(data => {
             setLocation(data)
-            console.log(data)
         })
         .catch(err => {
             setError(err)
