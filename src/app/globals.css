@@ -156,6 +156,7 @@ a:hover {
 
 
 .visit__container {
+  margin : 1.25rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -198,5 +199,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  margin-top: .25rem;
   
 }

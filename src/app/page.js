@@ -16,20 +16,24 @@ export default function Home() {
         <section className="hero">
           <GetTitle />
         </section>
-        <section className="about">
-          <AboutUs />
-        </section>
 
         <section>
           <History />
         </section>
 
+        <section className="about">
+          <AboutUs />
+        </section>
+        
         <section className="menu">
           <GetMenu />
         </section>
+
+
         <section className="visit">
           <VisitUs />
-          </section>
+        </section>
+
         <section className="frozen">
           <Frozen />
         </section>
