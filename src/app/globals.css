@@ -84,49 +84,47 @@ a:hover {
   border-radius: 10px;
 }
 
-.about__container{
+.about__container {
   display: flex;
 }
 
-.about__li{
-  padding: .75rem;
+.about__li {
+  padding: 0.75rem;
   list-style: none;
   margin: 2rem;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-} 
+}
 
-.menu{
+.menu {
   width: 100%;
 }
 
-.menu__container{
+.menu__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.menu__background{
+.menu__background {
   background-image: url("../../public/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-position-x: center;
   border-radius: 10px;
-
 }
 
-.menu__content{
-  background-color: rgba(0, 0, 0, 0.10);
+.menu__content {
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 1rem;
   margin: 0rem 1rem;
   border-radius: 10px;
   border-radius: 10px;
+}
 
-} 
-
-.history{
-  margin: .5rem;
+.history {
+  margin: 0.5rem;
   background-color: #060606;
   color: #252323;
   text-shadow: none;
@@ -135,7 +133,7 @@ a:hover {
   color: #ffffff;
 }
 
-.history__container{
+.history__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,11 +141,11 @@ a:hover {
   height: 100vh;
 }
 
-.history__container div{
+.history__container div {
   padding: 1rem 1rem;
 }
 
-.history__content{
+.history__content {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -157,22 +155,21 @@ a:hover {
 
 .history__container p {
   flex: 1;
-  box-sizing: border-box; 
-  }
+  box-sizing: border-box;
+}
 
-  .history__image {
-    height: 95%; 
-    width: 100%; 
-    background-image: url('../../public/fineas-anton-kC1-9Snr9hI-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 10px;
-  }
-
+.history__image {
+  height: 95%;
+  width: 100%;
+  background-image: url("../../public/fineas-anton-kC1-9Snr9hI-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
 
 .visit__container {
-  margin : 1.25rem;
+  margin: 1.25rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -182,23 +179,22 @@ a:hover {
   height: 100vh;
 }
 
-.visit__hours{
-  background-image: url('../../public/benjamin-zanatta-qk1hk6R9rIQ-unsplash.jpg');
+.visit__hours {
+  background-image: url("../../public/benjamin-zanatta-qk1hk6R9rIQ-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-
-
-.visit__location, .visit__hours {
+.visit__location,
+.visit__hours {
   flex: 1;
-  height: 100%; 
+  height: 100%;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1px; 
+  margin: 1px;
   border-radius: 10px;
 }
 .visit__location {
@@ -208,15 +204,64 @@ a:hover {
   background-position: center center;
 }
 
-
-.frozen{
+.frozen {
   width: 100vw;
   height: 100vh;
   background-image: url("../../public/pizza-rose.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-top: .25rem;
-  padding: 2.0rem;;
+  margin-top: 0.25rem;
+  padding: 2rem;
   border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  .about {
+    background-color: #ffffff;
+  }
+  .about__container {
+    flex-direction: column;
+    width: 100vw;
+    padding: 5rem;
+  }
+  .about__li {
+    margin: 1rem;
+  }
+
+  .history__container {
+    background-image: url("../../public/fineas-anton-kC1-9Snr9hI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+
+  .history__content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.17);
+    color: #fff;
+    padding: 20px;
+  }
+
+  .history__image {
+    display: none;
+  }
+
+  .visit{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .visit__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .visit__location, .visit__hours{
+    width: 100%;
+    height: 100vh;
+  }
+
 }
