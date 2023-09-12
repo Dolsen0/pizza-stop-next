@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
+
 body {
   font-family: "Libre Baskerville", serif;
   font-size: 16px;
