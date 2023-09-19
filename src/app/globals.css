@@ -126,6 +126,7 @@ a:hover {
   margin: 0rem 1rem;
   border-radius: 10px;
   border-radius: 10px;
+  color: #ffffff;
 }
 
 .history {
@@ -182,6 +183,7 @@ a:hover {
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
+  color: #ffffff;
 }
 
 .visit__hours {
