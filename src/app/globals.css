@@ -223,7 +223,12 @@ a:hover {
   border-radius: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
+
+  html {
+    overflow-x: hidden; /* Prevent left/right scrolling */
+  }
+
   .about {
     background-color: #ffffff;
   }
